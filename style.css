@@ -1,0 +1,440 @@
+body{
+    font-family: 'Raleway';
+}
+
+header{
+    padding-bottom: 152px;
+    background: url(./images/bg_img.jpg);
+    background-size: cover;
+}
+
+.bars{
+    color: #fff;
+    font-size: 35px;
+}
+
+header .navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    background: #4e9f0d;
+    border: 3px solid #62be19;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #48920c;
+    line-height: 17px;
+}
+
+header .navbar .navbar-brand:hover,
+header .navbar .navbar-brand:focus{
+    color: #fff;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link{
+    font-weight: 300;
+    font-style: 20px;
+    color: #69cf17;
+    display: block;
+    padding: 37px 11px 29px 10px;
+    display: flex;
+    align-items: center;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover,
+header .navbar .navbar-nav .nav-item .nav-link.active{
+    background-color: rgba(105, 207, 23, .75);
+    color: #fff;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    color: #69cf17;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .title{
+    margin-top: 150px;
+}
+
+header .title .big{
+    color: #69cf17;
+    font-weight: 900;
+    font-style: 72px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+header .title .title_span{
+    font-weight: 400;
+    font-style: 36px;
+    color: #69cf17;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+header .title .title_text{
+    font-weight: 400;
+    color: #dedede;
+    font-style: 18px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+header .title .title_btn{
+    padding: 28px 90px;
+    background: rgba(105, 207, 23, .75);
+    font-weight: 100;
+    font-size: 60px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    line-height: 46px;
+}
+
+.burgers{
+    background: #060002;
+    padding: 50px 0;
+}
+
+.burgers .burgers_menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 69px;
+}
+
+.burgers .burgers_menu ul li a{
+    font-weight: 700;
+    font-size: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+    display: block;
+    margin-right: 49px;
+    transition: .3s;
+}
+.burgers .burgers_menu ul li a:hover{
+    color: #69cf17;
+}
+
+.burgers .burgers_item .burger_img{
+    border: 1px solid #4b4b4b;
+    position: relative;
+}
+.burgers .burgers_item .burger_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.burgers .burgers_item .burger_img .price{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px 58px;
+    background: rgba(105, 297, 23, .75);
+    border: none;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 24px;
+    color: #dedede;
+}
+
+.burgers .burgers_item .burger_img .shop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 207, 23, .90);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .5s;
+    
+}
+
+.burgers .burgers_item .burger_img .shop .shop_btn{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.burgers .burgers_item .burger_img:hover .shop{
+    transform: scale(1) rotateX(360deg) rotateY(360deg);
+}
+
+.burgers .burgers_item .burger_info{
+    margin-top: 31px;
+    margin-bottom: 51px;
+}
+
+.burgers .burgers_item .burger_info h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #69cf17;
+    text-transform: uppercase;
+}
+.burgers .burgers_item .burger_info p{
+    color: #dedede;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.unique{
+    background: url(./images/section_bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0 102px;
+}
+
+.section_title{
+    font-weight: 700;
+    color: #69cf17;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.unique h2::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: #69cf17;
+    margin: auto;
+    margin-top: 19px;
+}
+
+.unique p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.unique p:last-child{
+    margin-bottom: 0;
+}
+
+.map{
+    background-color: #fff;
+    padding-top: 48px;
+}
+
+.map .section_title{
+    margin-bottom: 57px;
+}
+
+.map .google{
+    width: 100%;
+    height: 500px;
+}
+
+.map .google iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+footer{
+    background-color: #060002;
+    padding: 40px 0 50px;
+}
+
+footer .phone{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4e9f0d;
+    text-decoration: none;
+}
+
+footer .footer_items{
+    margin-top: 51px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+
+footer .footer_items li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #dedddd;
+}
+
+footer .footer_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #dedddd;
+}
+
+/* xl 1200 <= 1399 */
+@media(max-width: 1399px){
+
+}
+
+/* lg 992 <= 1199 */
+@media(max-width: 1199px){
+
+}
+
+/* md 768 <= 991 */
+@media(max-width: 991px){
+    header{
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link{
+        padding: 10px;
+    }
+    header .title{
+        margin-top: 120px;
+    }
+    header .title h1{
+        font-size: 50px;
+    }
+    header .title .title_btn{
+        font-size: 45px;
+        padding: 20px 55px;
+    }
+}
+
+/* sm 576 <= 767 */
+@media(max-width: 767px){
+    header .title{
+        margin-top: 70px;
+    }
+    header .title h1 {
+        font-size: 40px;
+    }
+
+    header .title .title_btn{
+        font-size: 45px;
+        padding: 8px 30px;
+    }
+
+    .burgers .burgers_menu ul{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .burgers .burgers_menu ul li a{
+        margin-right: 0;
+    }
+
+    .unique p{
+        text-align: center;
+    }
+
+    .section_title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .unique{
+        padding: 25px 0 45px;
+    }
+
+    .map{
+        padding-top: 25px;
+    }
+
+    .map .section_title{
+        margin-bottom: 25px;
+    }
+
+    footer .footer_items{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    footer .footer_items li a{
+        margin-left: 0;
+    }
+
+    footer .footer_text{
+        font-size: 14px;
+    }
+}
+
+/* xs 0 <= 575 */
+@media(max-width: 575px){
+    header{
+        padding-bottom: 40px;
+    }
+    header .title .big{
+        font-size: 25px;
+    }
+    header .title .title_span{
+        font-size: 20px;
+    }
+    header .title{
+        margin-top: 35px;
+    }
+    header .title .title_text{
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    header .title .title_btn{
+        font-size: 23px;
+        padding: 3px 22px;
+
+    }
+    .section_title{
+        font-size: 20px;
+    }
+    .burgers .burgers_item .burger_img .price{
+        padding: 14px 30px;
+    }
+    .burgers .burgers_item .burger_info h2{
+        font-size: 20px;
+    }
+    .burgers .burgers_item .burger_info p{
+        font-size: 14px;
+    }
+    .burgers .burgers_item .burger_info {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .unique p:last-child{
+        display: none;
+    }
+    .unique p{
+        font-size: 14px;
+    }
+    .unique{
+        padding: 25px 0 0;
+    }
+    .navbar-brand{
+        margin-right: 0;
+    }
+    footer{
+        padding: 40px 0 0;
+    }
+    footer .phone{
+        display: block;
+        margin-top: 15px;
+    }
+    footer .footer_items{
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
